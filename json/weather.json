@@ -1,0 +1,144 @@
+{
+    "data": {
+      "result": [
+        {
+          "airData": 192,
+          "airQuality": "轻度污染",
+          "city": "北京",
+          "date": "2017-10-01",
+          "dateLong": 1506787200,
+          "exp": {
+            "ct": {
+              "expName": "穿衣指数",
+              "level": "舒适",
+              "prompt": "建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。"
+            }
+          },
+          "humidity": "36%",
+          "lastUpdateTime": "2017-10-01 09:39:40",
+          "pm25": "144",
+          "temp": 23,
+          "tempRange": "13℃~26℃",
+          "weather": "多云转阴",
+          "weatherType": 1,
+          "wind": "东北风3-4级",
+          "windLevel": 1
+        },
+        {
+          "city": "北京",
+          "date": "2017-10-02",
+          "dateLong": 1506873600,
+          "lastUpdateTime": "2017-10-01 09:39:40",
+          "tempRange": "9℃~18℃",
+          "weather": "小雨转阴",
+          "weatherType": 7,
+          "wind": "东北风微风",
+          "windLevel": 0
+        },
+        {
+          "city": "北京",
+          "date": "2017-10-03",
+          "dateLong": 1506960000,
+          "lastUpdateTime": "2017-10-01 09:39:40",
+          "tempRange": "10℃~23℃",
+          "weather": "晴",
+          "weatherType": 0,
+          "wind": "西南风微风",
+          "windLevel": 0
+        },
+        {
+          "city": "北京",
+          "date": "2017-10-04",
+          "dateLong": 1507046400,
+          "lastUpdateTime": "2017-10-01 09:39:40",
+          "tempRange": "14℃~24℃",
+          "weather": "多云",
+          "weatherType": 1,
+          "wind": "西南风3-4级",
+          "windLevel": 1
+        },
+        {
+          "city": "北京",
+          "date": "2017-10-05",
+          "dateLong": 1507132800,
+          "lastUpdateTime": "2017-10-01 09:39:40",
+          "tempRange": "14℃~23℃",
+          "weather": "多云转阴",
+          "weatherType": 1,
+          "wind": "南风微风",
+          "windLevel": 0
+        },
+        {
+          "city": "北京",
+          "date": "2017-10-06",
+          "dateLong": 1507219200,
+          "lastUpdateTime": "2017-10-01 09:39:40",
+          "tempRange": "14℃~22℃",
+          "weather": "小雨",
+          "weatherType": 7,
+          "wind": "南风微风",
+          "windLevel": 0
+        },
+        {
+          "city": "北京",
+          "date": "2017-10-07",
+          "dateLong": 1507305600,
+          "lastUpdateTime": "2017-10-01 09:39:40",
+          "tempRange": "12℃~21℃",
+          "weather": "阴转晴",
+          "weatherType": 2,
+          "wind": "北风微风",
+          "windLevel": 0
+        }
+      ]
+    },
+    "rc": 0,
+    "semantic": [
+      {
+        "intent": "QUERY",
+        "slots": [
+          {
+            "name": "datetime",
+            "value": "明天",
+            "normValue": "{\"datetime\":\"2017-10-02\",\"suggestDatetime\":\"2017-10-02\"}"
+          },
+          {
+            "name": "location.city",
+            "value": "北京市",
+            "normValue": "北京市"
+          },
+          {
+            "name": "location.cityAddr",
+            "value": "北京",
+            "normValue": "北京"
+          },
+          {
+            "name": "location.type",
+            "value": "LOC_BASIC",
+            "normValue": "LOC_BASIC"
+          },
+          {
+            "name": "queryType",
+            "value": "内容"
+          },
+          {
+            "name": "subfocus",
+            "value": "天气状态"
+          }
+        ]
+      }
+    ],
+    "service": "weather",
+    "state": {
+      "fg::weather::default::default": {
+        "state": "default"
+      }
+    },
+    "text": "明天呢",
+    "uuid": "atn0012a043@ch24da0d2b9a786f2601",
+    "answer": {
+      "text": "\"北京明天小雨转阴\"，\"9℃~18℃\"，\"东北风微风\"，出门记得带伞，淋雨感冒心情也不好呢"
+    },
+    "dialog_stat": "DataValid",
+    "sid": "atn0012a043@ch24da0d2b9a786f2601"
+  }

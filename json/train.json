@@ -1,0 +1,579 @@
+{
+    "data": {
+      "result": [
+        {
+          "arrivalTime": "2017-10-02 10:08",
+          "endtime_for_voice": "明天10:08",
+          "endtimestamp": 1506910080,
+          "originStation": "合肥南",
+          "price": [
+            {
+              "name": "二等座",
+              "value": "200"
+            },
+            {
+              "name": "一等座",
+              "value": "306"
+            },
+            {
+              "name": "商务座",
+              "value": "621"
+            }
+          ],
+          "runTime": "2小时8分",
+          "startTime": "2017-10-02 08:00",
+          "startTimeStamp": "1506902400",
+          "starttime_for_voice": "明天08:00",
+          "starttimestamp": 1506902400,
+          "terminalStation": "上海",
+          "trainNo": "G7228",
+          "trainType": "高铁"
+        },
+        {
+          "arrivalTime": "2017-10-02 10:20",
+          "endtime_for_voice": "明天10:20",
+          "endtimestamp": 1506910800,
+          "originStation": "合肥",
+          "price": [
+            {
+              "name": "无座",
+              "value": "79.5"
+            },
+            {
+              "name": "硬座",
+              "value": "79.5"
+            },
+            {
+              "name": "硬卧",
+              "value": "172.5"
+            },
+            {
+              "name": "软卧",
+              "value": "267.5"
+            }
+          ],
+          "runTime": "6小时54分",
+          "startTime": "2017-10-02 03:26",
+          "startTimeStamp": "1506885960",
+          "starttime_for_voice": "明天03:26",
+          "starttimestamp": 1506885960,
+          "terminalStation": "上海",
+          "trainNo": "K462",
+          "trainType": "快速"
+        },
+        {
+          "arrivalTime": "2017-10-02 10:05",
+          "endtime_for_voice": "明天10:05",
+          "endtimestamp": 1506909900,
+          "originStation": "合肥",
+          "price": [
+            {
+              "name": "硬座",
+              "value": "79.5"
+            },
+            {
+              "name": "硬卧",
+              "value": "172.5"
+            },
+            {
+              "name": "软卧",
+              "value": "267.5"
+            }
+          ],
+          "runTime": "6小时32分",
+          "startTime": "2017-10-02 03:33",
+          "startTimeStamp": "1506886380",
+          "starttime_for_voice": "明天03:33",
+          "starttimestamp": 1506886380,
+          "terminalStation": "上海",
+          "trainNo": "K1014",
+          "trainType": "快速"
+        },
+        {
+          "arrivalTime": "2017-10-02 11:10",
+          "endtime_for_voice": "明天11:10",
+          "endtimestamp": 1506913800,
+          "originStation": "合肥",
+          "price": [
+            {
+              "name": "硬座",
+              "value": "79.5"
+            },
+            {
+              "name": "硬卧",
+              "value": "172.5"
+            },
+            {
+              "name": "软卧",
+              "value": "267.5"
+            }
+          ],
+          "runTime": "5小时14分",
+          "startTime": "2017-10-02 05:56",
+          "startTimeStamp": "1506894960",
+          "starttime_for_voice": "明天05:56",
+          "starttimestamp": 1506894960,
+          "terminalStation": "上海",
+          "trainNo": "K1154",
+          "trainType": "快速"
+        },
+        {
+          "arrivalTime": "2017-10-02 10:56",
+          "endtime_for_voice": "明天10:56",
+          "endtimestamp": 1506912960,
+          "originStation": "合肥南",
+          "price": [
+            {
+              "name": "二等座",
+              "value": "203.5"
+            },
+            {
+              "name": "一等座",
+              "value": "300.5"
+            }
+          ],
+          "runTime": "3小时11分",
+          "startTime": "2017-10-02 07:45",
+          "startTimeStamp": "1506901500",
+          "starttime_for_voice": "明天07:45",
+          "starttimestamp": 1506901500,
+          "terminalStation": "上海",
+          "trainNo": "G7258",
+          "trainType": "高铁"
+        },
+        {
+          "arrivalTime": "2017-10-02 12:18",
+          "endtime_for_voice": "明天12:18",
+          "endtimestamp": 1506917880,
+          "originStation": "合肥",
+          "price": [
+            {
+              "name": "二等座",
+              "value": "205"
+            },
+            {
+              "name": "一等座",
+              "value": "302"
+            }
+          ],
+          "runTime": "3小时26分",
+          "startTime": "2017-10-02 08:52",
+          "startTimeStamp": "1506905520",
+          "starttime_for_voice": "明天08:52",
+          "starttimestamp": 1506905520,
+          "terminalStation": "上海",
+          "trainNo": "G7224",
+          "trainType": "高铁"
+        },
+        {
+          "arrivalTime": "2017-10-02 16:24",
+          "endtime_for_voice": "明天16:24",
+          "endtimestamp": 1506932640,
+          "originStation": "合肥",
+          "price": [
+            {
+              "name": "硬座",
+              "value": "79.5"
+            },
+            {
+              "name": "硬卧",
+              "value": "172.5"
+            },
+            {
+              "name": "软卧",
+              "value": "267.5"
+            }
+          ],
+          "runTime": "7小时2分",
+          "startTime": "2017-10-02 09:22",
+          "startTimeStamp": "1506907320",
+          "starttime_for_voice": "明天09:22",
+          "starttimestamp": 1506907320,
+          "terminalStation": "上海",
+          "trainNo": "K1158",
+          "trainType": "快速"
+        },
+        {
+          "arrivalTime": "2017-10-02 12:00",
+          "endtime_for_voice": "明天12:00",
+          "endtimestamp": 1506916800,
+          "originStation": "合肥南",
+          "price": [
+            {
+              "name": "二等座",
+              "value": "196"
+            },
+            {
+              "name": "一等座",
+              "value": "300"
+            },
+            {
+              "name": "商务座",
+              "value": "607.5"
+            }
+          ],
+          "runTime": "2小时36分",
+          "startTime": "2017-10-02 09:24",
+          "startTimeStamp": "1506907440",
+          "starttime_for_voice": "明天09:24",
+          "starttimestamp": 1506907440,
+          "terminalStation": "上海虹桥",
+          "trainNo": "G7174",
+          "trainType": "高铁"
+        },
+        {
+          "arrivalTime": "2017-10-02 12:43",
+          "endtime_for_voice": "明天12:43",
+          "endtimestamp": 1506919380,
+          "originStation": "合肥南",
+          "price": [
+            {
+              "name": "二等座",
+              "value": "203.5"
+            },
+            {
+              "name": "一等座",
+              "value": "300.5"
+            }
+          ],
+          "runTime": "3小时14分",
+          "startTime": "2017-10-02 09:29",
+          "startTimeStamp": "1506907740",
+          "starttime_for_voice": "明天09:29",
+          "starttimestamp": 1506907740,
+          "terminalStation": "上海虹桥",
+          "trainNo": "G7378",
+          "trainType": "高铁"
+        },
+        {
+          "arrivalTime": "2017-10-02 13:07",
+          "endtime_for_voice": "明天13:07",
+          "endtimestamp": 1506920820,
+          "originStation": "合肥南",
+          "price": [
+            {
+              "name": "二等座",
+              "value": "156.5"
+            },
+            {
+              "name": "一等座",
+              "value": "187"
+            }
+          ],
+          "runTime": "3小时17分",
+          "startTime": "2017-10-02 09:50",
+          "startTimeStamp": "1506909000",
+          "starttime_for_voice": "明天09:50",
+          "starttimestamp": 1506909000,
+          "terminalStation": "上海虹桥",
+          "trainNo": "D3028",
+          "trainType": "动车"
+        },
+        {
+          "arrivalTime": "2017-10-02 13:28",
+          "endtime_for_voice": "明天13:28",
+          "endtimestamp": 1506922080,
+          "originStation": "合肥南",
+          "price": [
+            {
+              "name": "二等座",
+              "value": "156.5"
+            },
+            {
+              "name": "一等座",
+              "value": "187"
+            }
+          ],
+          "runTime": "3小时27分",
+          "startTime": "2017-10-02 10:01",
+          "startTimeStamp": "1506909660",
+          "starttime_for_voice": "明天10:01",
+          "starttimestamp": 1506909660,
+          "terminalStation": "上海虹桥",
+          "trainNo": "D3016",
+          "trainType": "动车"
+        },
+        {
+          "arrivalTime": "2017-10-02 13:01",
+          "endtime_for_voice": "明天13:01",
+          "endtimestamp": 1506920460,
+          "originStation": "合肥南",
+          "price": [
+            {
+              "name": "二等座",
+              "value": "196"
+            },
+            {
+              "name": "一等座",
+              "value": "300"
+            },
+            {
+              "name": "商务座",
+              "value": "607.5"
+            }
+          ],
+          "runTime": "2小时48分",
+          "startTime": "2017-10-02 10:13",
+          "startTimeStamp": "1506910380",
+          "starttime_for_voice": "明天10:13",
+          "starttimestamp": 1506910380,
+          "terminalStation": "上海虹桥",
+          "trainNo": "G7598",
+          "trainType": "高铁"
+        },
+        {
+          "arrivalTime": "2017-10-02 13:53",
+          "endtime_for_voice": "明天13:53",
+          "endtimestamp": 1506923580,
+          "originStation": "合肥南",
+          "price": [
+            {
+              "name": "二等座",
+              "value": "151.5"
+            },
+            {
+              "name": "一等座",
+              "value": "217.5"
+            }
+          ],
+          "runTime": "3小时22分",
+          "startTime": "2017-10-02 10:31",
+          "startTimeStamp": "1506911460",
+          "starttime_for_voice": "明天10:31",
+          "starttimestamp": 1506911460,
+          "terminalStation": "上海虹桥",
+          "trainNo": "D3096",
+          "trainType": "动车"
+        },
+        {
+          "arrivalTime": "2017-10-02 14:22",
+          "endtime_for_voice": "明天14:22",
+          "endtimestamp": 1506925320,
+          "originStation": "合肥南",
+          "price": [
+            {
+              "name": "二等座",
+              "value": "156.5"
+            },
+            {
+              "name": "一等座",
+              "value": "187"
+            }
+          ],
+          "runTime": "3小时34分",
+          "startTime": "2017-10-02 10:48",
+          "startTimeStamp": "1506912480",
+          "starttime_for_voice": "明天10:48",
+          "starttimestamp": 1506912480,
+          "terminalStation": "上海虹桥",
+          "trainNo": "D3012",
+          "trainType": "动车"
+        },
+        {
+          "arrivalTime": "2017-10-02 14:16",
+          "endtime_for_voice": "明天14:16",
+          "endtimestamp": 1506924960,
+          "originStation": "合肥南",
+          "price": [
+            {
+              "name": "二等座",
+              "value": "203.5"
+            },
+            {
+              "name": "一等座",
+              "value": "300.5"
+            },
+            {
+              "name": "商务座",
+              "value": "632"
+            }
+          ],
+          "runTime": "3小时11分",
+          "startTime": "2017-10-02 11:05",
+          "startTimeStamp": "1506913500",
+          "starttime_for_voice": "明天11:05",
+          "starttimestamp": 1506913500,
+          "terminalStation": "上海虹桥",
+          "trainNo": "G7578",
+          "trainType": "高铁"
+        },
+        {
+          "arrivalTime": "2017-10-02 14:50",
+          "endtime_for_voice": "明天14:50",
+          "endtimestamp": 1506927000,
+          "originStation": "合肥南",
+          "price": [
+            {
+              "name": "二等座",
+              "value": "156.5"
+            },
+            {
+              "name": "一等座",
+              "value": "187"
+            }
+          ],
+          "runTime": "3小时34分",
+          "startTime": "2017-10-02 11:16",
+          "startTimeStamp": "1506914160",
+          "starttime_for_voice": "明天11:16",
+          "starttimestamp": 1506914160,
+          "terminalStation": "上海虹桥",
+          "trainNo": "D3034",
+          "trainType": "动车"
+        },
+        {
+          "arrivalTime": "2017-10-02 15:06",
+          "endtime_for_voice": "明天15:06",
+          "endtimestamp": 1506927960,
+          "originStation": "合肥南",
+          "price": [
+            {
+              "name": "二等座",
+              "value": "156.5"
+            },
+            {
+              "name": "一等座",
+              "value": "187"
+            }
+          ],
+          "runTime": "3小时26分",
+          "startTime": "2017-10-02 11:40",
+          "startTimeStamp": "1506915600",
+          "starttime_for_voice": "明天11:40",
+          "starttimestamp": 1506915600,
+          "terminalStation": "上海虹桥",
+          "trainNo": "D3008",
+          "trainType": "动车"
+        },
+        {
+          "arrivalTime": "2017-10-02 15:27",
+          "endtime_for_voice": "明天15:27",
+          "endtimestamp": 1506929220,
+          "originStation": "合肥南",
+          "price": [
+            {
+              "name": "二等座",
+              "value": "151.5"
+            },
+            {
+              "name": "一等座",
+              "value": "217.5"
+            }
+          ],
+          "runTime": "3小时29分",
+          "startTime": "2017-10-02 11:58",
+          "startTimeStamp": "1506916680",
+          "starttime_for_voice": "明天11:58",
+          "starttimestamp": 1506916680,
+          "terminalStation": "上海虹桥",
+          "trainNo": "D3054",
+          "trainType": "动车"
+        },
+        {
+          "arrivalTime": "2017-10-02 16:05",
+          "endtime_for_voice": "明天16:05",
+          "endtimestamp": 1506931500,
+          "originStation": "合肥南",
+          "price": [
+            {
+              "name": "二等座",
+              "value": "156.5"
+            },
+            {
+              "name": "一等座",
+              "value": "187"
+            }
+          ],
+          "runTime": "3小时44分",
+          "startTime": "2017-10-02 12:21",
+          "startTimeStamp": "1506918060",
+          "starttime_for_voice": "明天12:21",
+          "starttimestamp": 1506918060,
+          "terminalStation": "上海虹桥",
+          "trainNo": "D3044",
+          "trainType": "动车"
+        },
+        {
+          "arrivalTime": "2017-10-02 16:08",
+          "endtime_for_voice": "明天16:08",
+          "endtimestamp": 1506931680,
+          "originStation": "合肥南",
+          "price": [
+            {
+              "name": "二等座",
+              "value": "151.5"
+            },
+            {
+              "name": "一等座",
+              "value": "217.5"
+            }
+          ],
+          "runTime": "3小时26分",
+          "startTime": "2017-10-02 12:42",
+          "startTimeStamp": "1506919320",
+          "starttime_for_voice": "明天12:42",
+          "starttimestamp": 1506919320,
+          "terminalStation": "上海虹桥",
+          "trainNo": "D3088",
+          "trainType": "动车"
+        }
+      ],
+      "webpage": "http://athena.openspeech.cn/athena/iss?method=webpage&wsid=49418341bbd32c346ae229e11f65935a&sid=atn00129eb3@ch9ef50d2b9c156f2a01"
+    },
+    "rc": 0,
+    "semantic": [
+      {
+        "intent": "QUERY",
+        "slots": [
+          {
+            "name": "endLoc.city",
+            "value": "上海市",
+            "normValue": "上海市"
+          },
+          {
+            "name": "endLoc.cityAddr",
+            "value": "上海",
+            "normValue": "上海"
+          },
+          {
+            "name": "endLoc.type",
+            "value": "LOC_BASIC",
+            "normValue": "LOC_BASIC"
+          },
+          {
+            "name": "startDate",
+            "value": "明天",
+            "normValue": "{\"datetime\":\"2017-10-02\",\"suggestDatetime\":\"2017-10-02\"}"
+          },
+          {
+            "name": "startLoc.city",
+            "value": "合肥市",
+            "normValue": "合肥市"
+          },
+          {
+            "name": "startLoc.cityAddr",
+            "value": "合肥",
+            "normValue": "合肥"
+          },
+          {
+            "name": "startLoc.type",
+            "value": "LOC_BASIC",
+            "normValue": "LOC_BASIC"
+          }
+        ]
+      }
+    ],
+    "service": "train",
+    "state": {
+      "fg::train::default::default": {
+        "state": "default"
+      }
+    },
+    "text": "合肥",
+    "uuid": "atn00129eb3@ch9ef50d2b9c156f2a01",
+    "answer": {
+      "text": "[n2]为您找到53个车次，推荐明天08:00从合肥南出发，明天10:08到达上海的[n1][h1]G7228[h0][n0]。"
+    },
+    "dialog_stat": "DataValid",
+    "sid": "atn00129eb3@ch9ef50d2b9c156f2a01"
+  }
