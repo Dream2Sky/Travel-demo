@@ -2,85 +2,68 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>demo</title>
-    <link rel="stylesheet" href="css/iconfont.css">
-    <link rel="stylesheet" href="css/material-design.css">
-    <link rel="stylesheet" href="css/style.css?version=123456789">
-    <link rel="stylesheet" href="css/template.css?version=12345799">
-    <style>
-        html body {
-            color: #5f5f5f;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>demo</title>
+  <link rel="stylesheet" href="css/iconfont.css">
+  <link rel="stylesheet" href="css/material-design.css">
+  <link rel="stylesheet" href="css/style.css?version=123456789">
+  <link rel="stylesheet" href="css/template.css?version=12345799">
+  <style>
+    html body {
+      color: #5f5f5f;
+    }
 
-        .bottomBar .btnMicrophone,
-        .bottomBar span {
-            user-select: none;
-        }
+    .bottomBar .btnMicrophone,
+    .bottomBar span {
+      user-select: none;
+    }
 
-        .empty {
-            display: block;
-            height: 125px;
-        }
-    </style>
+    .empty {
+      display: block;
+      height: 125px;
+    }
+  </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="template text">
-            <p> 你好有什么可以帮助你 ?
-            </p>
-        </div>
-        <div class="template weather-querydate">
-            <div class="datebar">
-                <span>2017-10-01</span>
-            </div>
-            <div class="top">
-                <span>惠州</span>
-                <span>13℃~26℃</span>
-            </div>
-            <div class="middle">
-                <div class="currntTemp">26℃</div>
-                <div class="currentweather">
-                    <svg class="icon" aria-hidden="true">
-                        <use xlink:href="#icon-riqing"></use>
-                    </svg>
-                    <span class="weathertest">晴</span>
-                </div>
-            </div>
-            <div class="bottom">
-                <span>轻度污染</span>
-                <span>东北风3-4级</span>
-            </div>
-            <div class="more">
-                <span>查看更多</span>
-            </div>
-        </div>
-        <div class="template">
-            
-        </div>
-    </div>
-    <div class="empty"></div>
-    <div class="bottomBar">
-        <button class="btnMicrophone active"></button>
-        <span class="iconfont icon-Microphone active"></span>
-    </div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/iconfont.js"></script>
-    <script src="js/prefixfree.min.js"></script>
-    <script src="js/material-design.js"></script>
-    <script>
-        $(".bottomBar").on("touchstart", function (e) {
-            e.stopPropagation();
-        })
+  <div class="container">
+  </div>
+  <div class="empty"></div>
+  <div class="bottomBar">
+    <button class="btnMicrophone active"></button>
+    <span class="iconfont icon-Microphone active"></span>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="http://do.yunzhijia.com/pub/js/qingjs.js"></script>
+  <script src="js/iconfont.js"></script>
+  <script src="js/prefixfree.min.js"></script>
+  <script src="js/material-design.js"></script>
+  <script src="js/cloudhubjsbrigde.js"></script>
+  <script>
+    var time;
+    var serverId;
+    var audioBridge = new AudioBridge();
 
-        $(".btnMicrophone").on("click", function () {
-            $(".text").fadeIn('slow');
+    $(".btnMicrophone").on("touchstart", function (e) {
+      e.stopPropagation();
+      time = setTimeout(function () {
+        audioBridge.StartRecord();
+      }, 500)
+    });
 
+    $(".btnMicrophone").on("touchend", function (e) {
+      e.stopPropagation();
+      audioBridge.StopRecord(function () {
+        $(".container").html("localId:" + this.getLocalId());
+        this.UploadVoice(function () {
+          $(".container").html("serverId:" + this.getServerId());
         });
-    </script>
+        clearTimeout(time);
+      });
+    });
+  </script>
 </body>
 
 </html>
